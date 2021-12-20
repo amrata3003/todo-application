@@ -42,7 +42,7 @@ class TodoApp extends React.Component {
         <TodoForm createTodoItem={this.createTodoItem} />
         <TodoItems>
           {this.state.todoItems.map(todoItem => (
-            <TodoItem key={todoItem.id} todoItem={todoItem} />
+            <TodoItem key={todoItem.id} todoItem={todoItem} getTodoItems={this.getTodoItems} />
           ))}
         </TodoItems>
       </>
