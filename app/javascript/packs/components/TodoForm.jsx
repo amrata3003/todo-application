@@ -46,7 +46,7 @@ class TodoForm extends React.Component {
             />
           </div>
           <div className="form-group col-md-4">
-            <button className="btn btn-outline-success btn-block">
+            <button className=" form-control btn btn-outline-success btn-block">
               Add To Do Item
             </button>
           </div>
